@@ -10,7 +10,7 @@ export const Layout = ({ children }: { children: React.ReactNode }) => {
       {/* Mobile Menu Button */}
       <button
         onClick={() => setIsSidebarOpen(!isSidebarOpen)}
-        className="md:hidden fixed top-4 left-4 z-50 p-2 rounded-md hover:bg-gray-100"
+        className="md:hidden fixed top-4 left-4 z-50 p-2 rounded-md bg-white hover:bg-gray-100"
       >
         <Menu className="h-6 w-6 text-gray-600" />
       </button>
@@ -37,7 +37,7 @@ export const Layout = ({ children }: { children: React.ReactNode }) => {
       {/* Overlay for mobile */}
       {isSidebarOpen && (
         <div
-          className="fixed inset-0 bg-black bg-opacity-50 z-30 md:hidden"
+          className="fixed inset-0 bg-black bg-opacity-70 z-30 md:hidden"
           onClick={() => setIsSidebarOpen(false)}
         />
       )}
