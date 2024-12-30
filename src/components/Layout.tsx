@@ -16,7 +16,15 @@ export const Layout = ({ children }: { children: React.ReactNode }) => {
       </button>
 
       {/* Sidebar with mobile support */}
-      <div className={`${isSidebarOpen ? 'translate-x-0' : '-translate-x-full'} md:translate-x-0 transition-transform duration-200 ease-in-out fixed md:static z-40`}>
+      <div 
+        className={`
+          fixed md:static 
+          transition-transform duration-200 ease-in-out 
+          ${isSidebarOpen ? 'translate-x-0' : '-translate-x-full'} 
+          md:translate-x-0 
+          z-40
+        `}
+      >
         <Sidebar onClose={() => setIsSidebarOpen(false)} />
       </div>
 

@@ -30,7 +30,7 @@ export const Sidebar = ({ onClose }: SidebarProps) => {
       </button>
 
       <div className="mb-12 pt-4 md:pt-0">
-        <Link to="/" className="block">
+        <Link to="/" className="block" onClick={onClose}>
           {/* Profile Photo */}
           <div className="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden">
             <img
