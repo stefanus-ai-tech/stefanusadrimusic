@@ -18,7 +18,8 @@ export const Layout = ({ children }: { children: React.ReactNode }) => {
       {/* Sidebar with mobile support */}
       <div 
         className={`
-          fixed md:static 
+          fixed md:relative 
+          w-64 h-full
           transition-transform duration-200 ease-in-out 
           ${isSidebarOpen ? 'translate-x-0' : '-translate-x-full'} 
           md:translate-x-0 
@@ -29,7 +30,7 @@ export const Layout = ({ children }: { children: React.ReactNode }) => {
       </div>
 
       {/* Main content */}
-      <main className="flex-1 md:ml-64 p-8 pt-16 md:pt-8">
+      <main className="flex-1 md:ml-0 p-8 pt-16 md:pt-8">
         {children}
       </main>
 
