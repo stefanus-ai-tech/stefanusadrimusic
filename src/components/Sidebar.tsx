@@ -1,5 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
 import { cn } from "@/lib/utils";
+import { X } from "lucide-react";
 
 const menuItems = [
   { name: "Instruments", path: "/instruments" },
@@ -11,15 +12,35 @@ const menuItems = [
   { name: "Contact", path: "/contact" },
 ];
 
-export const Sidebar = () => {
+interface SidebarProps {
+  onClose?: () => void;
+}
+
+export const Sidebar = ({ onClose }: SidebarProps) => {
   const location = useLocation();
 
   return (
     <div className="fixed left-0 top-0 h-full w-64 bg-white p-8 flex flex-col border-r border-gray-100">
-      <div className="mb-12">
+      {/* Close button for mobile */}
+      <button
+        onClick={onClose}
+        className="md:hidden absolute top-4 right-4 p-2 rounded-md hover:bg-gray-100"
+      >
+        <X className="h-6 w-6 text-gray-600" />
+      </button>
+
+      <div className="mb-12 pt-4 md:pt-0">
         <Link to="/" className="block">
-          <h1 className="text-2xl font-serif mb-1">Stefanus Adri Irawan</h1>
-          <p className="text-gray-600">Music Production</p>
+          {/* Profile Photo */}
+          <div className="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden">
+            <img
+              src="https://images.unsplash.com/photo-1649972904349-6e44c42644a7"
+              alt="Stefanus Adri Irawan"
+              className="w-full h-full object-cover"
+            />
+          </div>
+          <h1 className="text-2xl font-serif mb-1 text-center">Stefanus Adri Irawan</h1>
+          <p className="text-gray-600 text-center">Music Production</p>
         </Link>
       </div>
       
@@ -29,6 +50,7 @@ export const Sidebar = () => {
             <li key={item.name}>
               <Link
                 to={item.path}
+                onClick={onClose}
                 className={cn(
                   "block py-2 px-4 rounded-md transition-colors",
                   location.pathname === item.path
@@ -43,7 +65,7 @@ export const Sidebar = () => {
         </ul>
       </nav>
       
-      <div className="mt-auto pt-8 flex gap-4">
+      <div className="mt-auto pt-8 flex gap-4 justify-center">
         <a href="#" className="text-gray-600 hover:text-wine">
           <span className="sr-only">SoundCloud</span>
           <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
