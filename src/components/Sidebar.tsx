@@ -33,7 +33,7 @@ export const Sidebar = ({ onClose }: SidebarProps) => {
           {/* Profile Photo */}
           <div className="w-32 h-32 mx-auto mb-4 overflow-hidden">
             <img
-              src="../public/2.png"
+              src="/2.png"
               alt="Stefanus Adri Irawan"
               className="w-full h-full object-cover"
             />

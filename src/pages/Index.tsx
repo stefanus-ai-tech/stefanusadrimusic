@@ -1,5 +1,5 @@
 import React from 'react';
-import apenFoto from '../../public/apen foto.png';
+import apenFoto from '/apen foto.png';
 
 const Index = () => {
   return (

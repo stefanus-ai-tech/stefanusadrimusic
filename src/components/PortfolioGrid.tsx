@@ -30,7 +30,7 @@ const PortfolioGrid = ({ projects, categories }: PortfolioGridProps) => {
         <button
           className={`px-4 py-2 rounded-full ${
             selectedCategory === ''
-              ? 'bg-blue-500 text-white'
+              ? 'bg-[rgb(139,31,31)] text-white'
               : 'bg-gray-200 hover:bg-gray-300'
           }`}
           onClick={() => setSelectedCategory('')}>
@@ -41,7 +41,7 @@ const PortfolioGrid = ({ projects, categories }: PortfolioGridProps) => {
             key={category}
             className={`px-4 py-2 rounded-full ${
               selectedCategory === category
-                ? 'bg-blue-500 text-white'
+                ? 'bg-[rgb(139,31,31)] text-white'
                 : 'bg-gray-200 hover:bg-gray-300'
             }`}
             onClick={() => setSelectedCategory(category)}>
