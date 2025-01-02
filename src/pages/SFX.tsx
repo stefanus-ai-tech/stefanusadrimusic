@@ -6,28 +6,32 @@ const projects = [
     id: '1',
     title: 'Sanghamitta',
     image: '/b1.png',
-    video: '',
+    video:
+      'https://player.vimeo.com/video/1043512489?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479',
     categories: ['Religious'],
   },
   {
     id: '2',
     title: 'Artsensei1',
     image: '/b2.png',
-    video: '',
+    video:
+      'https://player.vimeo.com/video/1043512459?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479',
     categories: ['Art'],
   },
   {
     id: '3',
     title: 'Artsensei2',
     image: '/b3.png',
-    video: '',
+    video:
+      'https://player.vimeo.com/video/1043512468?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479',
     categories: ['Art'],
   },
   {
     id: '4',
     title: 'Warefleet',
     image: '/b4.png',
-    video: '',
+    video:
+      'https://player.vimeo.com/video/1043513042?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479',
     categories: ['Corporate'],
   },
 ];
