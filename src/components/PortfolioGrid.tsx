@@ -4,7 +4,7 @@ interface Project {
   id: string;
   title: string;
   image: string;
-  video: string;
+  video?: string;
   categories: string[];
   renderItem?: React.ReactNode;
 }
