@@ -1,4 +1,4 @@
-import { PortfolioGrid } from '../components/PortfolioGrid';
+import PortfolioGrid from '../components/PortfolioGrid';
 
 const projects = [
   {
