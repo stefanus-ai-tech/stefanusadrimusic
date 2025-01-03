@@ -4,16 +4,66 @@ import PortfolioGrid from '../components/PortfolioGrid';
 const projects = [
   {
     id: '1',
-    title: 'Album Production',
-    image: '/placeholder.svg',
-    video: '',
+    title: '(Original Song) v3-Dancing Petals',
+    image: '/c (1).png',
+    video:
+      'https://player.vimeo.com/video/1043577437?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479',
     categories: ['Music', 'Mixing'],
   },
   {
     id: '2',
-    title: 'Podcast Series',
-    image: '/placeholder.svg',
-    video: '',
+    title: 'BT 1',
+    image: '/c (2a).png',
+    video:
+      'https://player.vimeo.com/video/1043577916?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479',
+    categories: ['Audio', 'Editing'],
+  },
+  {
+    id: '3',
+    title: 'BT 2',
+    image: '/c (2b).png',
+    video:
+      'https://player.vimeo.com/video/1043577936?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479',
+    categories: ['Audio', 'Editing'],
+  },
+  {
+    id: '4',
+    title: 'Compro',
+    image: '/c (3).png',
+    video:
+      'https://player.vimeo.com/video/1043577953?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479',
+    categories: ['Audio', 'Editing'],
+  },
+  {
+    id: '5',
+    title: 'Corporate',
+    image: '/c (4).png',
+    video:
+      'https://player.vimeo.com/video/1043577978?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479',
+    categories: ['Audio', 'Editing'],
+  },
+  {
+    id: '6',
+    title: 'Cover song',
+    image: '/c (5).png',
+    video:
+      'https://player.vimeo.com/video/1043577385?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479',
+    categories: ['Audio', 'Editing'],
+  },
+  {
+    id: '7',
+    title: 'Ori Cli',
+    image: '/c (6).png',
+    video:
+      'https://player.vimeo.com/video/1043579556?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479',
+    categories: ['Audio', 'Editing'],
+  },
+  {
+    id: '8',
+    title: 'Stream',
+    image: '/c (7).png',
+    video:
+      'https://player.vimeo.com/video/1043579586?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479',
     categories: ['Audio', 'Editing'],
   },
 ];
@@ -21,7 +71,7 @@ const projects = [
 const Production = () => {
   return (
     <div>
-      <h1 className="text-4xl font-serif mb-12">SFX</h1>
+      <h1 className="text-4xl font-serif mb-12">Production</h1>
       <PortfolioGrid
         projects={projects.map((project) => ({
           ...project,
@@ -54,7 +104,13 @@ const Production = () => {
             </Dialog>
           ),
         }))}
-        categories={['Religious', 'Art', 'Corporate']}
+        categories={[
+          'Backing Track',
+          'Company Profile',
+          'Corporate',
+          'Cover Song',
+          'Original',
+        ]}
       />
     </div>
   );
