@@ -6,57 +6,72 @@ const projects = [
     id: '1',
     title: 'Drum',
     image: '/d1.png',
-    video: '',
-    categories: ['Classical', 'Solo'],
+    video:
+      'https://player.vimeo.com/video/1043586176?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479',
+    categories: ['Drum'],
   },
   {
     id: '2',
-    title: 'String Quartet',
+    title: 'Piano',
     image: '/d2.png',
-    video: '',
-    categories: ['Ensemble'],
+    video:
+      'https://player.vimeo.com/video/1043586303?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479',
+    categories: ['Piano'],
   },
   {
-    id: '2',
-    title: 'String Quartet',
+    id: '3',
+    title: 'Guitar',
     image: '/d3.png',
-    video: '',
-    categories: ['Ensemble'],
+    video:
+      'https://player.vimeo.com/video/1043586253?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479',
+    categories: ['Guitar'],
   },
   {
-    id: '2',
-    title: 'String Quartet',
+    id: '4',
+    title: 'Bb Trumpet',
     image: '/d4.png',
-    video: '',
-    categories: ['Ensemble'],
+    video:
+      'https://player.vimeo.com/video/1043588437?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479',
+    categories: ['Brass'],
   },
   {
-    id: '2',
-    title: 'String Quartet',
+    id: '5',
+    title: 'Bamboo flute',
     image: '/d5.png',
-    video: '',
-    categories: ['Ensemble'],
+    video:
+      'https://player.vimeo.com/video/1043586152?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479',
+    categories: ['Woodwind'],
   },
   {
-    id: '2',
-    title: 'String Quartet',
+    id: '6',
+    title: 'Erhu',
     image: '/d6.png',
-    video: '',
-    categories: ['Ensemble'],
+    video:
+      'https://player.vimeo.com/video/1043586242?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479',
+    categories: ['String'],
   },
   {
-    id: '2',
-    title: 'String Quartet',
+    id: '7',
+    title: 'Pianika',
     image: '/d7.png',
-    video: '',
-    categories: ['Ensemble'],
+    video:
+      'https://player.vimeo.com/video/1043586270?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479',
+    categories: ['Piano'],
+  },
+  {
+    id: '8',
+    title: 'Recorder',
+    image: '/d8.png',
+    video:
+      'https://player.vimeo.com/video/1043586311?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479',
+    categories: ['Woodwind'],
   },
 ];
 
 const Instruments = () => {
   return (
     <div>
-      <h1 className="text-4xl font-serif mb-12">Production</h1>
+      <h1 className="text-4xl font-serif mb-12">Instruments</h1>
       <PortfolioGrid
         projects={projects.map((project) => ({
           ...project,
