@@ -8,7 +8,6 @@ const menuItems = [
   { name: 'Commercial', path: '/commercial' },
   { name: 'SFX', path: '/sfx' },
   { name: 'Production', path: '/production' },
-  { name: 'About', path: '/about' },
   { name: 'Contact', path: '/contact' },
 ];
 
