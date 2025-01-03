@@ -5,57 +5,57 @@ const projects = [
   {
     id: '1',
     title: 'Elle Raisa',
-    image: '/a1.png',
+    image: 'webp/a1.webp',
     video:
-      'https://player.vimeo.com/video/1043506796?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479',
+      'https://www.youtube.com/embed/PUgtFhHFtCc?si=GFS1Avn0sKpOcBFV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin',
     categories: ['Fashion'],
   },
   {
     id: '2',
     title: 'Elle xiaomi',
-    image: '/a2.png',
+    image: 'webp/a2.webp',
     video:
-      'https://player.vimeo.com/video/1043506405?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479',
+      'https://www.youtube.com/embed/pL7ksB6iTdM?si=Jgh83OHfby3_Tc_G" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin',
     categories: ['Tech', 'Lifestyle'],
   },
   {
     id: '3',
     title: 'Kebunku',
-    image: '/a3.png',
+    image: 'webp/a3.webp',
     video:
-      'https://player.vimeo.com/video/1043506431?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479',
+      'https://www.youtube.com/embed/cPPPgTWqY7c?si=4gYX3muNmJLyKav8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin',
     categories: ['Retail', 'Lifestyle'],
   },
   {
     id: '4',
     title: 'Telkomsel',
-    image: '/a4.png',
+    image: 'webp/a4.webp',
     video:
-      'https://player.vimeo.com/video/1043510240?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479',
+      'https://www.youtube.com/embed/dh03qRzm7-E?si=zmzlIuZJmCvYwFqG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin',
     categories: ['Tech', 'Lifestyle'],
   },
   {
     id: '5',
     title: 'Kominfo1',
-    image: '/a5.png',
+    image: 'webp/a5.webp',
     video:
-      'https://player.vimeo.com/video/1043506555?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479',
+      'https://www.youtube.com/embed/7jJZrueMyjg?si=pWyLbZXXibO76tg_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin',
     categories: ['Health'],
   },
   {
     id: '6',
     title: 'Kominfo2',
-    image: '/a6.png',
+    image: 'webp/a6.webp',
     video:
-      'https://player.vimeo.com/video/1043506654?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479',
+      'https://www.youtube.com/embed/65mNNFsDvR0?si=Y5VkwDrYSQHb6fQK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin',
     categories: ['Health'],
   },
   {
     id: '7',
     title: 'Arung Songket',
-    image: '/a7.png',
+    image: 'webp/a7.webp',
     video:
-      'https://player.vimeo.com/video/1043506912?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479',
+      'https://www.youtube.com/embed/7MNmOrlGJ9w?si=lj5ulzj1TSAtDKC1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin',
     categories: ['Lifestyle'],
   },
 ];

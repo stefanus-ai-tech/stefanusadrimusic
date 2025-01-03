@@ -5,65 +5,58 @@ const projects = [
   {
     id: '1',
     title: '(Original Song) v3-Dancing Petals',
-    image: '/c (1).png',
-    video:
-      'https://player.vimeo.com/video/1043577437?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479',
+    image: 'webp/c (1).webp',
+    video: 'https://www.youtube.com/embed/hLUS1hNSCGY?si=bsF18xo7q2lv_T2S',
     categories: ['Original'],
   },
   {
     id: '2',
     title: 'BT 1',
-    image: '/c (2a).png',
-    video:
-      'https://player.vimeo.com/video/1043577916?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479',
+    image: 'webp/c (2a).webp',
+    video: 'https://www.youtube.com/embed/0Ps7ZrnUmMg?si=Wih9BNXK5RWsE5VY',
     categories: ['Backing Track'],
   },
   {
     id: '3',
     title: 'BT 2',
-    image: '/c (2b).png',
-    video:
-      'https://player.vimeo.com/video/1043577936?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479',
+    image: 'webp/c (2b).webp',
+    video: 'https://www.youtube.com/embed/jmoq13LD-pw?si=KjYPwP8nn6C14io_',
     categories: ['Backing Track'],
   },
   {
     id: '4',
     title: 'Compro',
-    image: '/c (3).png',
-    video:
-      'https://player.vimeo.com/video/1043577953?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479',
+    image: 'webp/c (3).webp',
+    video: 'https://www.youtube.com/embed/QzhNSsVwEkY?si=2v8eTDAE_SYJGFwg',
     categories: ['Company Profile'],
   },
   {
     id: '5',
     title: 'Corporate',
-    image: '/c (4).png',
-    video:
-      'https://player.vimeo.com/video/1043577978?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479',
+    image: 'webp/c (4).webp',
+    video: 'https://www.youtube.com/embed/HgJtSYrfPRg',
     categories: ['Corporate'],
   },
   {
     id: '6',
     title: 'Cover song',
-    image: '/c (5).png',
+    image: 'webp/c (5).webp',
     video:
-      'https://player.vimeo.com/video/1043577385?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479',
+      'https://www.youtube.com/embed/FDZc-CVmmEM?si=1FRaUnnrsqoExIt8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin',
     categories: ['Cover Song'],
   },
   {
     id: '7',
     title: 'Ori Cli',
-    image: '/c (6).png',
-    video:
-      'https://player.vimeo.com/video/1043579556?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479',
+    image: 'webp/c (6).webp',
+    video: 'https://www.youtube.com/embed/Ti33i8V-eVw?si=rKmr1Ofg3KBpKXa-',
     categories: ['Original'],
   },
   {
     id: '8',
     title: 'Stream',
-    image: '/c (7).png',
-    video:
-      'https://player.vimeo.com/video/1043579586?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479',
+    image: 'webp/c (7).webp',
+    video: 'https://www.youtube.com/embed/1U-jocfBzm8',
     categories: ['Audio', 'Editing'],
   },
 ];

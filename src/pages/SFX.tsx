@@ -5,33 +5,31 @@ const projects = [
   {
     id: '1',
     title: 'Sanghamitta',
-    image: '/b1.png',
+    image: 'webp/b1.webp',
     video:
-      'https://player.vimeo.com/video/1043512489?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479',
+      'https://www.youtube.com/embed/g9G6axPvUBc?si=ueypSEBkdoihMqQi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin',
     categories: ['Religious'],
   },
   {
     id: '2',
     title: 'Artsensei1',
-    image: '/b2.png',
+    image: 'webp/b2.webp',
     video:
-      'https://player.vimeo.com/video/1043512459?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479',
+      'https://www.youtube.com/embed/mEn79NSzv4U?si=yozf6emV6bp90vDD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin',
     categories: ['Art'],
   },
   {
     id: '3',
     title: 'Artsensei2',
-    image: '/b3.png',
-    video:
-      'https://player.vimeo.com/video/1043512468?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479',
+    image: 'webp/b3.webp',
+    video: 'https://www.youtube.com/embed/aosNhY8tlHM?si=84p3cjoZwk9M8GaU',
     categories: ['Art'],
   },
   {
     id: '4',
     title: 'Warefleet',
-    image: '/b4.png',
-    video:
-      'https://player.vimeo.com/video/1043513042?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479',
+    image: 'webp/b4.webp',
+    video: 'https://www.youtube.com/embed/ARDOj9u-h4g?si=U61gxjMWIWsp6a57',
     categories: ['Corporate'],
   },
 ];
