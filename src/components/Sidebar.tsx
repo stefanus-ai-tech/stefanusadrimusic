@@ -20,7 +20,7 @@ export const Sidebar = ({ onClose }: SidebarProps) => {
   const location = useLocation();
 
   return (
-    <div className="fixed left-0 top-0 h-full w-64 bg-white shadow-lg p-8 flex flex-col border-r border-gray-200">
+    <div className="fixed left-0 top-0 h-full w-64 bg-white p-8 flex flex-col border-r border-gray-200">
       {/* Close button for mobile */}
       <button
         onClick={onClose}
