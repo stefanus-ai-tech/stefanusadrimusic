@@ -35,7 +35,7 @@ const projects = [
     id: '5',
     title: 'Bamboo flute',
     image: '/d5.png',
-    video: 'https://www.youtube.com/embed/a5GlwIpg6Qs',
+    video: 'https://www.youtube.com/embed/LYkM1kCe_uc',
     categories: ['Woodwind'],
   },
   {
