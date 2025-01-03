@@ -1,5 +1,6 @@
 import React from 'react';
 import apenFoto from '/apen foto.png';
+import { Link } from 'react-router-dom'; // Add this import
 
 const Index = () => {
   return (
@@ -11,16 +12,16 @@ const Index = () => {
         </h1>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <a
-            href="/contact"
+          <Link
+            to="/contact"
             className="inline-block px-6 py-3 bg-wine text-white rounded-md hover:bg-wine-700 transition-colors text-center">
             Hire Me
-          </a>
-          <a
-            href="/about"
+          </Link>
+          <Link
+            to="/about"
             className="inline-block px-6 py-3 border border-wine text-wine rounded-md hover:bg-wine/10 transition-colors text-center">
             Learn More
-          </a>
+          </Link>
         </div>
       </div>
     </div>
