@@ -8,7 +8,7 @@ const projects = [
     image: '/c (1).png',
     video:
       'https://player.vimeo.com/video/1043577437?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479',
-    categories: ['Music', 'Mixing'],
+    categories: ['Original'],
   },
   {
     id: '2',
@@ -16,7 +16,7 @@ const projects = [
     image: '/c (2a).png',
     video:
       'https://player.vimeo.com/video/1043577916?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479',
-    categories: ['Audio', 'Editing'],
+    categories: ['Backing Track'],
   },
   {
     id: '3',
@@ -24,7 +24,7 @@ const projects = [
     image: '/c (2b).png',
     video:
       'https://player.vimeo.com/video/1043577936?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479',
-    categories: ['Audio', 'Editing'],
+    categories: ['Backing Track'],
   },
   {
     id: '4',
@@ -32,7 +32,7 @@ const projects = [
     image: '/c (3).png',
     video:
       'https://player.vimeo.com/video/1043577953?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479',
-    categories: ['Audio', 'Editing'],
+    categories: ['Company Profile'],
   },
   {
     id: '5',
@@ -40,7 +40,7 @@ const projects = [
     image: '/c (4).png',
     video:
       'https://player.vimeo.com/video/1043577978?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479',
-    categories: ['Audio', 'Editing'],
+    categories: ['Corporate'],
   },
   {
     id: '6',
@@ -48,7 +48,7 @@ const projects = [
     image: '/c (5).png',
     video:
       'https://player.vimeo.com/video/1043577385?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479',
-    categories: ['Audio', 'Editing'],
+    categories: ['Cover Song'],
   },
   {
     id: '7',
@@ -56,7 +56,7 @@ const projects = [
     image: '/c (6).png',
     video:
       'https://player.vimeo.com/video/1043579556?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479',
-    categories: ['Audio', 'Editing'],
+    categories: ['Original'],
   },
   {
     id: '8',
